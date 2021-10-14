@@ -7,7 +7,7 @@ public class DVD extends LibraryContents implements Producer{
 
 
 
-    public DVD(String title, String genre, String Director, int length) {
+    public DVD(String title, String genre, String Director, int DVDLength) {
         super(title, genre);
         this.Director = Director;
         this.DVDLength = DVDLength;

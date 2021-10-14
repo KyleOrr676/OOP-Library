@@ -13,8 +13,7 @@ public class Main {
         LibraryContents.add(new DVD("Batman: The Dark Knight", "It is a Fantasy movie", "Christopher Nolan", 152));
         System.out.println("Title: "+ DVD.getTitle()+", "+ DVD.getGenre()+ ", directed by " + DVD.getDirector() +", and it plays for "+DVD.getDVDLength()+ " minutes");
 
-         LibraryContents.add(new Audiobook("Wolf of Wall Street", "Biopic", 1200));
-         System.out.println("Title: "+ Audiobook.getTitle()+ " It is a "+ Audiobook.getGenre()+ "which plays for " + Audiobook.getABLength()+ "mins");
-
+        LibraryContents.add(new Audiobook("Wolf of Wall Street", "Biopic", 1200));
+        System.out.println("Title: "+ Audiobook.getTitle()+ " It is a "+ Audiobook.getGenre()+ ", which plays for " + Audiobook.getABLength()+ "mins");
     }
 }
