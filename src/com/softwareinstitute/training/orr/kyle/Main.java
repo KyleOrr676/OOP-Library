@@ -14,6 +14,6 @@ public class Main {
         System.out.println("Title: "+ DVD.getTitle()+", "+ DVD.getGenre()+ ", directed by " + DVD.getDirector() +", and it plays for "+DVD.getDVDLength()+ " minutes");
 
         LibraryContents.add(new Audiobook("Wolf of Wall Street", "Biopic", 1200));
-        System.out.println("Title: "+ Audiobook.getTitle()+ " It is a "+ Audiobook.getGenre()+ ", which plays for " + Audiobook.getABLength()+ "mins");
+        System.out.println("Title: "+ Audiobook.getTitle()+ ", It is a "+ Audiobook.getGenre()+ ", which plays for " + Audiobook.getABLength()+ " minutes");
     }
 }
