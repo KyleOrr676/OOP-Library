@@ -22,7 +22,7 @@ public abstract class LibraryContents {
     public static String getGenre(){
         return Genre;
     }
-    public void setGenre(){
+    public void setGenre(String Genre){
         this.Genre = Genre;
     }
 }
