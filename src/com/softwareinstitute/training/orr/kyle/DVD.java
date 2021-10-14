@@ -10,9 +10,6 @@ public class DVD extends LibraryContents implements Producer{
         Length = length;
     }
 
-    public DVD() {
-
-    }
 
     public void Title(String itemTitle){
         System.out.println("The title of the item is" +itemTitle);
