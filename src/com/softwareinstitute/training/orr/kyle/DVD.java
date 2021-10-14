@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.orr.kyle;
 
-public class DVD extends LibraryContents{
+public class DVD extends LibraryContents implements Producer{
 
     private int Length;
 
@@ -8,6 +8,10 @@ public class DVD extends LibraryContents{
     public DVD(String title, String genre, int length) {
         super(title, genre);
         Length = length;
+    }
+
+    public DVD() {
+
     }
 
     public void Title(String itemTitle){
@@ -18,7 +22,11 @@ public class DVD extends LibraryContents{
         System.out.println("The genre of the item is " +itemGenre);
     }
 
-    public void Length(int itemLength){
-        System.out.println("The length of the item is" +itemLength);
+    public int getLength() {
+        return Length;
     }
+    public void setLength(int Length) {
+        this.Length = Length;
+    }
+
 }

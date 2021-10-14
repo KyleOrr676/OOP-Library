@@ -19,21 +19,19 @@ public abstract class LibraryContents {
 
 //////////////////////////////////////// Method ///////////////////////////////////
 
-    public void Title(String itemTitle){
-
-    }
-
-
-    public void Genre(String itemGenre){
-
-    }
-
-
-
-
 
     public String getTitle() {
         return Title;
+    }
+    public void setTitle(String Title) {
+        this.Title = Title;
+    }
+
+    public String getGenre(){
+        return Genre;
+    }
+    public void setGenre(){
+        this.Genre = Genre;
     }
 
 }
