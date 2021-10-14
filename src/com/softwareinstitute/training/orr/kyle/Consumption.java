@@ -1,7 +1,8 @@
 package com.softwareinstitute.training.orr.kyle;
 
-interface Producer{
+interface Consumption {
 
+    void watched();
 
 
 }

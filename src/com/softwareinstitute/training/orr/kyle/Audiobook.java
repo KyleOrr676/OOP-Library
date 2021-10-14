@@ -20,4 +20,19 @@ public class Audiobook extends LibraryContents implements Author{
     public void setLength(int Length){
         this.ABLength=ABLength;
     }
+
+    @Override
+    public void written() {
+
+    }
+
+    @Override
+    public void published() {
+
+    }
+
+    @Override
+    public void read() {
+
+    }
 }

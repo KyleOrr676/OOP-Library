@@ -8,7 +8,7 @@ public class Main {
 
         ArrayList<LibraryContents> LibraryContents = new ArrayList<>(10);
         LibraryContents.add(new Book("The Shining" , "Horror","Stephen King", 447));
-        System.out.println("Title (Book) : "+ Book.getTitle() +", written by " + Book.getAuthor()+", and this book's genre is: "+ Book.getGenre()+ " is" + Book.getBookLength() + " pages long.");
+        System.out.println("Title (Book) : "+ Book.getTitle() +", written by " + Book.getAuthor()+", and this book's genre is: "+ Book.getGenre()+ " is " + Book.getBookLength() + " pages long.");
 
         LibraryContents.add(new DVD("Batman: The Dark Knight", "Fantasy", "Christopher Nolan", 152));
         System.out.println("Title (Film) : "+ DVD.getTitle()+", this film's genre is: " + DVD.getGenre()+ ", directed by " + DVD.getDirector() +", and it plays for "+DVD.getDVDLength()+ " minutes.");

@@ -1,10 +1,9 @@
 package com.softwareinstitute.training.orr.kyle;
 
-public class DVD extends LibraryContents implements Producer{
+public class DVD extends LibraryContents implements Consumption {
 
     private static String Director;
     private static int DVDLength;
-
 
 
     public DVD(String title, String genre, String Director, int DVDLength) {
@@ -13,13 +12,25 @@ public class DVD extends LibraryContents implements Producer{
         this.DVDLength = DVDLength;
     }
 
-    public void setDirector(String director){this.Director = director;}
-    public static String getDirector(){return Director;}
+    public void setDirector(String director) {
+        this.Director = director;
+    }
 
-    public void setLength(int Length){
+    public static String getDirector() {
+        return Director;
+    }
+
+    public void setLength(int Length) {
         this.DVDLength = Length;
     }
-    public static int getDVDLength(){
+
+    public static int getDVDLength() {
         return DVDLength;
     }
+
+
+    @Override
+    public void watched() {
+    }
 }
+

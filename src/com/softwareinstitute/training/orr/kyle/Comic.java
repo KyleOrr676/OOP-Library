@@ -18,4 +18,17 @@ public class Comic extends Book implements Author{
         return ComicLength;
     }
 
+    @Override
+    public void published() {
+
+    }
+    @Override
+    public void written() {
+
+    }
+
+    @Override
+    public void read() {
+
+    }
 }

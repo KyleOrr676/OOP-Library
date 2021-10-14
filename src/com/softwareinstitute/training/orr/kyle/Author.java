@@ -1,7 +1,12 @@
 package com.softwareinstitute.training.orr.kyle;
 
-interface Author{
+public interface Author{
 
+    void written();
+
+    void published();
+
+    void read();
 
 
     }

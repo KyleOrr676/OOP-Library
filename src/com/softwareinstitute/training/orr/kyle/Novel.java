@@ -18,6 +18,18 @@ public class Novel extends Book implements Author{
     public static int getNovelLength(){
         return NovelLength;
     }
+    @Override
+    public void written() {
 
+    }
 
+    @Override
+    public void published() {
+
+    }
+
+    @Override
+    public void read() {
+
+    }
 }
