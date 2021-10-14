@@ -2,28 +2,28 @@ package com.softwareinstitute.training.orr.kyle;
 
 public class Book extends LibraryContents{
 
-    private String Title;
-    private String Genre;
     private int Length;
     private String Author;
 
 
+    public Book(String title, String genre, int length, String author) {
+        super(title, genre);
+        Length = length;
+        Author = author;
+    }
 
 
     public void Title(String itemTitle){
-        System.out.println("The title of the item is" +itemTitle);
+        System.out.println("The title of the book is " +itemTitle);
     }
 
     public void Genre(String itemGenre){
-        System.out.println("The genre of the item is " +itemGenre);
+        System.out.println("The genre of the book is " +itemGenre);
     }
 
-    public void pages(int length) {
-        System.out.println("The number of pages is" + length);
+    public int getLength() {
+        return Length;
+    }
 
-    }
-    public void Author(String itemAuthor) {
-        System.out.println("Author of item is" +itemAuthor);
-    }
 
 }

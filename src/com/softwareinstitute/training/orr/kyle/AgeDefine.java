@@ -1,4 +1,16 @@
 package com.softwareinstitute.training.orr.kyle;
 
-public interface AgeDefine {
+interface Author {
+
+    private String Author;
+
+
+
+
+
+    public void Author(String itemAuthor) {
+        System.out.println("Author of item is " +itemAuthor);
+    }
+
 }
+

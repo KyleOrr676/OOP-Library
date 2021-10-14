@@ -11,12 +11,10 @@ public abstract class LibraryContents {
 
 ////////////////////////////////////////// Constructor ///////////////////////////
 
-
-
-
-
-
-
+    public LibraryContents(String title, String genre) {
+        Title = title;
+        Genre = genre;
+    }
 
 
 //////////////////////////////////////// Method ///////////////////////////////////
@@ -28,6 +26,14 @@ public abstract class LibraryContents {
 
     public void Genre(String itemGenre){
 
+    }
+
+
+
+
+
+    public String getTitle() {
+        return Title;
     }
 
 }
