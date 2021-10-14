@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.orr.kyle;
 
-public class Book extends LibraryContents {
+public class Book extends LibraryContents{
 
     private String Title;
     private String Genre;

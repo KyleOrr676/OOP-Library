@@ -21,10 +21,14 @@ public abstract class LibraryContents {
 
 //////////////////////////////////////// Method ///////////////////////////////////
 
-    public abstract void Title(String itemTitle);
+    public void Title(String itemTitle){
+
+    }
 
 
-    public abstract void Genre(String itemGenre);
+    public void Genre(String itemGenre){
+
+    }
 
 }
 
