@@ -2,10 +2,14 @@ package com.softwareinstitute.training.orr.kyle;
 
 public class Novel extends Book implements Author{
 
+    private static String Author;
 
-    public Novel(String title, String genre, int length, String author) {
-        super(title, genre, author);
+
+    public Novel(String title, String genre, String Author) {
+        super(title, genre, Author);
 
     }
+
+
 
 }
