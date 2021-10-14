@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.orr.kyle;
 
-public class Novel extends Book implements Author{
+public class Novel extends Book implements Literature{
 
     private static String Author;
     private static int NovelLength;

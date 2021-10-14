@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.orr.kyle;
 
-public class DVD extends LibraryContents implements Consumption {
+public class DVD extends LibraryContents implements Media {
 
     private static String Director;
     private static int DVDLength;

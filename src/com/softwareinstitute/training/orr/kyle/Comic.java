@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.orr.kyle;
 
-public class Comic extends Book implements Author{
+public class Comic extends Book implements Literature{
 
     public static int ComicLength;
 

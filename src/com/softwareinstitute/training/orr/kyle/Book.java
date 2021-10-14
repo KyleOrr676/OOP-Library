@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.orr.kyle;
 
-public class Book extends LibraryContents implements Author {
+public class Book extends LibraryContents implements Literature {
 
 
 

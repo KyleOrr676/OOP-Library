@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.orr.kyle;
 
-public interface Author{
+public interface Literature{
 
     void written();
 

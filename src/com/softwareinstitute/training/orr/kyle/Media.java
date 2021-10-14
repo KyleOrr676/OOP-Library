@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.orr.kyle;
 
-interface Consumption {
+interface Media {
 
     void watched();
 

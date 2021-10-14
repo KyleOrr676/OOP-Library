@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.orr.kyle;
 
-public class Audiobook extends LibraryContents implements Author{
+public class Audiobook extends LibraryContents implements Literature{
 
     private static int ABLength;
 
