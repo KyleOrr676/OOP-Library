@@ -2,28 +2,24 @@ package com.softwareinstitute.training.orr.kyle;
 
 public class DVD extends LibraryContents implements Producer{
 
-    private int Length;
+    private static String Director;
+    private static int DVDLength;
 
 
-    public DVD(String title, String genre, int length) {
+
+    public DVD(String title, String genre, String Director, int length) {
         super(title, genre);
-        Length = length;
+        this.Director = Director;
+        this.DVDLength = DVDLength;
     }
 
+    public void setDirector(String director){this.Director = director;}
+    public static String getDirector(){return Director;}
 
-    public void Title(String itemTitle){
-        System.out.println("The title of the item is" +itemTitle);
+    public void setLength(int Length){
+        this.DVDLength = Length;
     }
-
-    public void Genre(String itemGenre){
-        System.out.println("The genre of the item is " +itemGenre);
+    public static int getDVDLength(){
+        return DVDLength;
     }
-
-    public int getLength() {
-        return Length;
-    }
-    public void setLength(int Length) {
-        this.Length = Length;
-    }
-
 }

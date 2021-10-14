@@ -1,11 +1,13 @@
 package com.softwareinstitute.training.orr.kyle;
 
+
 public abstract class LibraryContents {
+
 
 //////////////////////////////////////// Attributes /////////////////////////////
 
-    private String Title;
-    private String Genre;
+    private static String Title;
+    private static String Genre;
 
 
 
@@ -20,14 +22,14 @@ public abstract class LibraryContents {
 //////////////////////////////////////// Method ///////////////////////////////////
 
 
-    public String getTitle() {
+    public static String getTitle() {
         return Title;
     }
     public void setTitle(String Title) {
         this.Title = Title;
     }
 
-    public String getGenre(){
+    public static String getGenre(){
         return Genre;
     }
     public void setGenre(){
