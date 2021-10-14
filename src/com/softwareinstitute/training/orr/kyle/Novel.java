@@ -1,19 +1,16 @@
 package com.softwareinstitute.training.orr.kyle;
 
-public class Novel extends LibraryContents implements Author{
+public class Novel extends Book implements Author{
 
-private int Length;
+private final int Length;
 
-
-    public Novel(String title, String genre) {
-        super(title, genre);
-        Length = Length;
+    public Novel(String title, String genre, int length, String author, int length1) {
+        super(title, genre, length, author);
+        Length = length1;
     }
 
-    public int setLength() {
+
+    public int getLength() {
         return Length;
-    }
-    public void getLength(int Length){
-        this.Length=Length;
     }
 }
