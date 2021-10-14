@@ -8,5 +8,4 @@ public interface Literature{
 
     void read();
 
-
-    }
+}

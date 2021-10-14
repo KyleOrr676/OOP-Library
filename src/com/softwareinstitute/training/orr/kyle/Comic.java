@@ -17,18 +17,13 @@ public class Comic extends Book implements Literature{
     public static int getComicLength(){
         return ComicLength;
     }
-
-    @Override
-    public void published() {
-
-    }
     @Override
     public void written() {
-
     }
-
+    @Override
+    public void published() {
+    }
     @Override
     public void read() {
-
     }
 }

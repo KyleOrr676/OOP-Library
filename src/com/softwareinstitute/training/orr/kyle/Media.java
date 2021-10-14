@@ -4,5 +4,6 @@ interface Media {
 
     void watched();
 
+    void listened();
 
 }
