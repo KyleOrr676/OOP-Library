@@ -3,13 +3,21 @@ package com.softwareinstitute.training.orr.kyle;
 public class Novel extends Book implements Author{
 
     private static String Author;
+    private static int NovelLength;
 
 
-    public Novel(String title, String genre, String Author) {
-        super(title, genre, Author);
+
+    public Novel(String title, String genre, String Author, int Length) {
+        super(title, genre, Author, Length);
+        this.NovelLength = Length;
 
     }
-
+    public void setLength(int Length){
+        this.NovelLength = Length;
+    }
+    public static int getNovelLength(){
+        return NovelLength;
+    }
 
 
 }
