@@ -30,4 +30,16 @@ public class testLibrary {
         DVD testDVD = new DVD ("IT", "Horror", "Stephen King",96);
         assertEquals("The Film is not Horror", "Horror", "Horror");
     }
+    @Test
+    public void testAudiobookMethod(){
+
+        Audiobook testAudiobook = new Audiobook ("LOTR", "Fantasy", 960);
+        assertEquals("The Film is not LOTR", "LOTR", "LOTR");
+    }
+    @Test
+    public void testAudiobookGenreMethod(){
+
+        Audiobook testAudiobook = new Audiobook ("IT", "Horror", 96);
+        assertEquals("The Film is not Horror", "Horror", "Horror");
+    }
 }
