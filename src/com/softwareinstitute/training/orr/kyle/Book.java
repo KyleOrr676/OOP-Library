@@ -36,8 +36,3 @@ public class Book extends LibraryContents implements Literature {
     public void read() {
     }
 }
-
-
-
-
-
