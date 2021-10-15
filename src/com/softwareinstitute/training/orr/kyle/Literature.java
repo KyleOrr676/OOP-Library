@@ -7,5 +7,4 @@ public interface Literature{
     void published();
 
     void read();
-
 }
