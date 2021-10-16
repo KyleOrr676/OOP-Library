@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<LibraryContents> LibraryContents = new ArrayList<>(10);
-        LibraryContents.add(new Book("The Shining" , "Horror","Stephen King", 447));
+        LibraryContents.add(new Book("The Stand" , "Thriller","Stephen King", 800));
         System.out.println("Title (Book) : "+ Book.getTitle() +", written by " + Book.getAuthor()+", this book's genre is: "+ Book.getGenre()+ " and is " + Book.getBookLength() + " pages long.");
 
         LibraryContents.add(new DVD("Batman: The Dark Knight", "Fantasy", "Christopher Nolan", 152));
